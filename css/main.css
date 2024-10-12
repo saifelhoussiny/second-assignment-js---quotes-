@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Edu-B ';
+    src: url('../webfonts/EduAUVICWANTDots-Bold.woff2') format('woff2'),
+        url('../webfonts/EduAUVICWANTDots-Bold.woff') format('woff'),
+        url('../webfonts/EduAUVICWANTDots-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Edu-SB';
+    src: url('../webfonts/EduAUVICWANTDots-SemiBold.woff2') format('woff2'),
+        url('../webfonts/EduAUVICWANTDots-SemiBold.woff') format('woff'),
+        url('../webfonts/EduAUVICWANTDots-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto-BoldI';
+    src: url('../webfonts/Roboto-BoldItalic.woff2') format('woff2'),
+        url('../webfonts/Roboto-BoldItalic.woff') format('woff'),
+        url('../webfonts/Roboto-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-BlackItalic';
+    src: url('../webfonts/Roboto-BlackItalic.woff2') format('woff2'),
+        url('../webfonts/Roboto-BlackItalic.woff') format('woff'),
+        url('../webfonts/Roboto-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto-R';
+    src: url('../webfonts/Roboto-Regular.woff2') format('woff2'),
+        url('../webfonts/Roboto-Regular.woff') format('woff'),
+        url('../webfonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: #F7ECDE;
+}
+
+.myfont{
+    font-family: 'Edu-SB';
+color: rgb(193, 52, 153);  
+margin-top: 10%;
+}
+.custmizefont{
+    font-family: 'Roboto-R';
+    color: rgba(0, 128, 255, 0.581);
+}
+.pfont{
+    font-family: 'Roboto-R';
+    color: #1AA179;
+}
